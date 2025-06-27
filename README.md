@@ -4,6 +4,9 @@ This repository contains several .NET 10 sample projects and scripts demonstrati
 
 ## Project Structure
 
+- **Extensions/** - Demonstrates C# extension methods and properties
+- **Field/** - Shows the use of the `field` keyword in property setters
+- **MinimalApis/** - A minimal API project showcasing .NET's lightweight web API framework
 - **Nullable/** - A project demonstrating C# nullable reference types
 - **script/** - Contains C# script files that can be run directly
 
@@ -25,7 +28,38 @@ A minimal web application that responds with "Hello World!" at the `/hello` endp
 dotnet run script/webapp.cs
 ```
 
+## Extensions Project
 
+Demonstrates extension methods and properties in C#.
+
+### How to run:
+
+```bash
+cd Extensions
+dotnet run
+```
+
+## Field Project
+
+Shows usage of the `field` keyword in property setters, a new feature in .NET 10.
+
+### How to run:
+
+```bash
+cd Field
+dotnet run
+```
+
+## MinimalApis Project
+
+A minimal API web application with endpoint routing and Swagger integration.
+
+### How to run:
+
+```bash
+cd MinimalApis
+dotnet run
+```
 
 ## Nullable Project
 
