@@ -12,6 +12,10 @@ This repository contains several .NET 10 sample projects and scripts demonstrati
 
 ## Scripts
 
+https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/
+
+You can now run a C# file directly using dotnet run app.cs. This means you no longer need to create a project file or scaffold a whole application to run a quick script, test a snippet.
+
 ### script.cs
 
 A simple script demonstrating the Humanizer package to format dates in a human-readable way.
@@ -28,8 +32,9 @@ A minimal web application that responds with "Hello World!" at the `/hello` endp
 dotnet run script/webapp.cs
 ```
 
-## Extensions Project
+## Extensions
 
+https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14#extension-members
 Demonstrates extension methods and properties in C#.
 
 ### How to run:
@@ -39,8 +44,9 @@ cd Extensions
 dotnet run
 ```
 
-## Field Project
+## Field 
 
+https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14#the-field-keyword
 Shows usage of the `field` keyword in property setters, a new feature in .NET 10.
 
 ### How to run:
@@ -52,7 +58,9 @@ dotnet run
 
 ## MinimalApis Project
 
-A minimal API web application with endpoint routing and Swagger integration.
+https://learn.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-10.0?view=aspnetcore-9.0#validation-support-in-minimal-apis
+
+validation support is added to minimal API web application
 
 ### How to run:
 
@@ -62,6 +70,8 @@ dotnet run
 ```
 
 ## Nullable Project
+
+https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14#null-conditional-assignment
 
 A compiled project showing nullable reference types.
 
