@@ -1,0 +1,27 @@
+# MinimalApi.http
+# This file contains HTTP requests to test the Minimal API
+# You can use the REST Client extension in VS Code to send these requests
+
+### Test the root endpoint
+GET https://localhost:7001/
+Accept: application/json
+
+
+### Test the echo endpoint
+POST https://localhost:7001/api/echo
+Content-Type: application/json
+Accept: application/json
+
+{
+    "message": "Hello from HTTP Client!",
+     "name": "Test User"
+}
+
+### Invalid request to echo endpoint (missing required fields)
+POST https://localhost:7001/api/echo
+Content-Type: application/json
+Accept: application/json
+
+{
+     "message": "Hello from HTTP Client!"
+}
